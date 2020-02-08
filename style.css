@@ -1,0 +1,103 @@
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+nav a h3:hover {
+  text-decoration: none;
+  color: white;
+  border-bottom: solid white 5px;
+  -webkit-transform: scaleY(1.2);
+          transform: scaleY(1.2);
+  -webkit-transition: 1000ms;
+  transition: 1000ms;
+  cursor: pointer;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+.active-page {
+  border-bottom: solid white 5px;
+  color: white;
+}
+
+.hamburger {
+  background-color: black;
+  width: 40px;
+  height: 4px;
+  cursor: pointer;
+}
+
+header {
+  background-color: yellow;
+}
+
+header ul li {
+  list-style: none;
+}
+
+.popout-animaian {
+  cursor: pointer;
+}
+
+.popout-animaian img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer {
+  background-color: yellow;
+}
+
+footer :hover {
+  background-color: chartreuse;
+}
+
+.rightside {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.hr-style {
+  border: solid yellow 1px;
+}
+
+.information ul li {
+  color: yellow;
+}
+
+.information em {
+  color: black;
+}
+
+.information p {
+  font-size: 30px;
+}
+
+.experience {
+  font-size: 20px;
+}
+
+.menubt {
+  border: solid yellow 1px;
+}
+
+.menuhover:hover {
+  background-color: coral;
+  cursor: pointer;
+}
+
+.subheader h1 {
+  color: yellow;
+  background-color: #1b1b1b;
+  font-size: 70x;
+}
+
+.firstName-desktop {
+  color: yellow;
+  font-size: 50px;
+}
+/*# sourceMappingURL=style.css.map */
